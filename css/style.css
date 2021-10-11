@@ -16,7 +16,7 @@ h1 {
 header {
     text-align: center;
 }
-
+/* Heros Section*/
 #hero, footer {
     color: #D7443F;
     border: 2px solid #D7443F;
@@ -28,11 +28,25 @@ header {
 #hero img {
     width: 350px;
 }
-
+/* Side section*/
 #side {
     text-align: center;
 }
-
+/*Hobbies section*/
 #hobbies ul li:nth-child(odd){
     color: #F1ECE9;
+}
+
+/*gallery section*/
+#gallery {
+
+    border: 2px solid #D7443F;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align: center;
 }
