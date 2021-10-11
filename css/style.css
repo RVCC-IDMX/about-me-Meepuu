@@ -1,0 +1,31 @@
+body {
+    font-family: Open Sans;
+    background-color: #485058;
+    color: #D7443F;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Birthstone;
+    font-size: 50pt;
+}
+
+header {
+    text-align: center;
+    padding:10px;
+}
+
+#hero, footer {
+    color: #D7443F;
+    border: 2px solid #D7443F;
+    background-color: #333A42;
+    text-align: center;
+
+}
+
+#hero img {
+    width: 350px;
+}
+
+#side {
+    text-align: center;
+}
