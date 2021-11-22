@@ -1,7 +1,0 @@
-# About Me
-
-
-Marc Bonilla 
-
-
-
