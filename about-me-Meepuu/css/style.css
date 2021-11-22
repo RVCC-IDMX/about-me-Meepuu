@@ -1,0 +1,136 @@
+body {
+    font-family: Open Sans;
+    background-color: #485058;
+    color: #D7443F;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Birthstone;
+    text-align: center;
+    font-size: 50pt;
+}
+
+h2 {
+    margin: .2rem;
+}
+
+
+header {
+    text-align: center;
+}
+/* Heros Section*/
+#hero, footer {
+    color: #D7443F;
+    border: 2px solid #D7443F;
+    background-color: #333A42;
+    text-align: center;
+
+}
+
+#hero img {
+    width: 350px;
+}
+/* Side section*/
+#side {
+    text-align: center;
+}
+
+#hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Hobbies section*/
+#hobbies ul li:nth-child(odd){
+    color: #F1ECE9;
+}
+
+/*gallery section*/
+#gallery {
+
+    border: 2px solid #D7443F;
+    margin-bottom: 2rem;
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align: center;
+}
+/*Literature*/
+#lit {
+    border: 2px solid #D7443F;
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+#lit div p {
+    padding: 0.3rem 0;
+    clear:both;
+}
+/* Drop caps*/
+
+#lit div p:first-child::first-letter {
+    color:#F1ECE9;
+    font-family: Birthstone;
+    float: left;
+    font-size: 2.5rem;
+    padding: 1rem;
+    margin-right: .45rem;
+    line-height: .55;
+    border: 5px inset #D7443F;
+    box-shadow: 2.5px 2.5px 2.5px;
+    text-shadow: 5px 5px 5px;
+
+}
+
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    #lit div {
+        max-width: 100%;
+        columns: 20rem;
+    }
+}
+
+@media screen and (min-width: 100em) {
+
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    hr {
+        display: none;
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
+    }
+}
