@@ -144,8 +144,67 @@
 
         </div>
 
-
     </article>
+
+    <section id="contact">
+
+        <h2>Contact Us:</h2>
+
+        <form id="contectForm" name="contactForm" method="post" data-netlify="true">
+        
+            <fieldset>
+                <legend>Contact Form</legend>
+                
+            <div id="formElements">
+
+                <label for="name">Name (Required)</label>
+                <input type="text" id="name" name="name" placeholder="Name?" required>
+            
+                <label for="email">Email (Required)</label>
+                <input type="email" id="email" name="email" placeholder="Email?" required>
+            
+                <label for="phone">Phone (Optional)</label>
+                <input type="tel" id="phone" name="phone" placeholder="Care to give your number?">
+
+                <label for="phonetype">Phone type (Optional)</label>
+                <select id="phonetype">
+                    <option value="" selected>Select phone type</option>
+                    <option value="Mobile">Mobile</option>
+                    <option value="Work">Work</option>
+                    <option value="Home">Home</option>
+                </select>
+
+                <label for="message">Message (Optional)</label>
+                <textarea id="message" name="message" rows="5" placeholder="Hit your keys here!"></textarea>
+
+                <fieldset>
+                    <legend>Would you like a reply?</legend>
+
+                    <ul> 
+                        <li>
+                            <input type="radio" id="message-yes" name="reply" value="Yes I would like one">
+                            <label for="message-yes">Yes I would like one.</label>
+                        </li>
+                        
+                        <li>
+                            <input type="radio" id="message-no" name="reply" value="no thanks" checked="true">
+                            <label for="message-no">No, thanks.</label>
+                        </li>
+                    </ul>
+
+                </fieldset>
+
+                <button type="submit">Send</button>
+
+            </div>
+
+            </fieldset>
+        
+        </form>
+
+
+    </section>
+
 
     </main>
     
