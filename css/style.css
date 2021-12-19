@@ -17,6 +17,7 @@ h2 {
 header {
     text-align: center;
 }
+
 /* Heros Section*/
 #hero, footer {
     color: #D7443F;
@@ -28,7 +29,9 @@ header {
 
 #hero img {
     width: 350px;
+    margin-top: 150px;
 }
+
 /* Side section*/
 #side {
     text-align: center;
@@ -42,8 +45,7 @@ header {
 
 /*Hobbies section*/
 #hobbies ul li:nth-child(odd){
-    color: #F1ECE9;
-    
+    color: #F1ECE9; 
 }
 
 /*gallery section*/
@@ -196,6 +198,19 @@ legend {
         margin-bottom: 1rem;
     }
 }
+
+    .ani {
+    width: 200px;
+    height: 100px;
+    background-color: #D7443F;
+    animation-name: example;
+    animation-duration: 6s;
+  }
+  
+  @keyframes example {
+    from {background-color: #D7443F;}
+    to {background-color: #485058;}
+  }
 
 @media screen and (min-width: 100em) {
 
